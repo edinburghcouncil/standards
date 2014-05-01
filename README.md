@@ -1,7 +1,5 @@
 ## Coding Style Guide
 
-### Coding standards, best practices and developer guidelines
-
 The intent of this guide is to reduce cognitive friction when scanning code from different authors. It does so by enumerating a shared set of rules and expectations about how to format PHP code. Ideally, all code should appear as if written by one person.
 
 It helps to have one set of guidelines to be used among all projects. Thus, the benefit of this guide is not in the rules themselves, but in the sharing of those rules.
