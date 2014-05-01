@@ -16,22 +16,11 @@ There MUST be one `use` keyword per declaration.
 
 There MUST be one blank line after the `use` block.
 
-### 3.1. Extends and Implements
+### Extends and Implements
 
 The `extends` and `implements` keywords MUST be declared on the same line as the class name.
 
 Lists of `implements` MAY be split across multiple lines, where each subsequent line is indented once. When doing so, the first item in the list MUST be on the next line, and there MUST be only one interface per line.
-
-### Properties
-
-Visibility MUST be declared on all properties.
-
-The `var` keyword MUST NOT be used to declare a property.
-
-There MUST NOT be more than one property declared per statement.
-
-Property names SHOULD be prefixed with a single underscore to indicate
-protected or private visibility.
 
 ### Example
 
@@ -58,3 +47,13 @@ class LongerClassName extends ParentClass implements
 }
 
 ```
+
+### Properties
+
+Visibility MUST be declared on all properties.
+
+The `var` keyword MUST NOT be used to declare a property.
+
+There MUST NOT be more than one property declared per statement.
+
+Property names SHOULD be prefixed with a single underscore to indicate protected or private visibility.
